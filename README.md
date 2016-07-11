@@ -1,5 +1,5 @@
 #ISO_3166-2 World Regions
-This file pretends to merge data from several data source (pycountry, wikipedia, etc) to centralize all country-wide location and miscellaneous data in one file.
+This file pretends to merge data from several data source (openweathermap, wikipedia, etc) to centralize all country-wide location and miscellaneous data in one file.
 
 Data structure is like this:
 ```
