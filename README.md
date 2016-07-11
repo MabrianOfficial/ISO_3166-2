@@ -5,17 +5,17 @@ The data structure looks like this:
 ```
 "Country_code" (ISO_3166-1) : {
   "regions" : [
+      "currency" (ISO_4217): String,
+      "name": String,
       {
         "code" (ISO_3166-2) : String,
         "name"      : String,
         "latitude"  : Float,
         "longitude" : Float,
         "timezone"  : String,
-        "openweathermap_city_id"  : Integer,
+        "openweathermap_city_id"  : Integer
       }
   ],
-  "currency" (ISO_4217): String,
-  "name": String,
 }
 ```
 
