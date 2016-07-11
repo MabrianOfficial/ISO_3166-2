@@ -11,9 +11,11 @@ Data structure is like this:
         "latitude"  : Float,
         "longitude" : Float,
         "timezone"  : String,
+        "openweathermap_city_id"  : Integer,
       }
   ],
   "currency" (ISO_4217): String,
   "name": String,
 }
 ```
+
