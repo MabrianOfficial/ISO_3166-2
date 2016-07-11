@@ -3,19 +3,23 @@ This file pretends to merge data from several data sources (openweathermap, wiki
 
 The data structure looks like this:
 ```
-"Country_code" (ISO_3166-1) : {
-  "regions" : [
-      "currency" (ISO_4217): String,
-      "name": String,
-      {
-        "code" (ISO_3166-2) : String,
-        "name"      : String,
-        "latitude"  : Float,
-        "longitude" : Float,
-        "timezone"  : String,
-        "openweathermap_city_id"  : Integer
-      }
-  ],
+{
+  "country_code" (ISO_3166-1) : {
+    "name": String,
+    "currency" (ISO_4217): String,
+    "regions" : [
+        {
+          "code" (ISO_3166-2) : String,
+          "name"      : String,
+          "latitude"  : Float,
+          "longitude" : Float,
+          "timezone"  : String,
+          "openweathermap_city_id" : Integer
+        },
+        ...
+    ]
+  },
+...
 }
 ```
 
