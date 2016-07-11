@@ -1,7 +1,7 @@
 #ISO_3166-2 World Regions
-This file pretends to merge data from several data source (openweathermap, wikipedia, etc) to centralize all country-wide location and miscellaneous data in one file.
+This file pretends to merge data from several data sources (openweathermap, wikipedia, etc) to centralize all country-wide locations and miscellaneous data in one file.
 
-Data structure is like this:
+The data structure looks like this:
 ```
 "Country_code" (ISO_3166-1) : {
   "regions" : [
